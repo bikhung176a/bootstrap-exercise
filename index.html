@@ -8,11 +8,27 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Ristorante Con Fusion</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand mr-auto" href="#"> Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mynav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="navbar-item active"><a href="#" class="nav-link">Home</a></li>
+                <li class="navbar-item"><a href="/aboutus.html" class="nav-link">About</a></li>
+                <li class="navbar-item"><a href="#" class="nav-link">Menu</a></li>
+                <li class="navbar-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -61,9 +77,9 @@
                 <div class="col-12 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#"><i class="fa fa-phone"></i>Home</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a hef="#">Menu</a></li>
+                        <li><a href="/demoNavbar.html">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
@@ -80,7 +96,8 @@
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a href="http://google.com/+">Google+</a>
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+">
+                            <i class="fa fa-google-plus"></i></a>
                         <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
                         <a href="http://www.linkedin.com/in/">LinkedIn</a>
                         <a href="http://twitter.com/">Twitter</a>
