@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ristorante Con Fusion</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand mr-auto" href="#"> Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="mynav" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="navbar-item active"><a href="index.html" class="nav-link"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link"><span class="fa fa-info fa-lg">
+                            </span> About</a> </li>
+                    <li class="navbar-item"><a href="#" class="nav-link"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                    <li class="navbar-item"><a href="contactus.html" class="nav-link"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="jumbotron">
+        <div <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1>Ristorante con Fusion</h1>
+                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3 ">
+                <h3>Our Lipsmacking Culinary Creations</h3>
+            </div>
+            <div class="col col-sm order-sm-first col-md">
+                <h2>Uthappizza</h2>
+                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+            </div>
+        </div>
+        <!-- Alert -->
+        <div class="alert alert-warning" role="alert">
+            <strong>Holy guacamole</strong>You should check it
+            <button type="button" class="close" data-toggle="alert">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <!-- Badges -->
+        <span class="badge badge-danger">Hot </span>
+        <span class="badge badge-pill badge-secondary">$4.99</span>
+        <!-- Nav link -->
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Active</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Active</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Disable</a>
+            </li>
+        </ul>
+        <!-- Nav with dropdown -->
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Active</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Link</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Action</a>
+                    <div class="dropdown-divider">
+                        <a href="#" class="dropdown-item">Link</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Disable</a>
+            </li>
+        </ul>
+        <!-- Nav with tab-->
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#nav-home" data-toggle="tab" class="nav-link active" role="tab" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#collapseExample" class="nav-link">Active</a>
+            </li>
+            <li class="nav-item">
+                <a href="#collapseExample" class="nav-link disabled">Disable</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="nav-home" role="tab-pane">Hello</div>
+        </div>
+        <!-- Collapse-->
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button">Link with href</a>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample">Button with target</button>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multiCollapse">Button with multi target</button>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                This is a card
+            </div>
+        </div>
+        <div class="collapse multiCollapse">
+            <div class="card card-body">
+                This is a card 1
+            </div>
+        </div>
+        <div class="collapse multiCollapse">
+            <div class="card card-body">
+                This is a card 2
+            </div>
+        </div>
+    </div>
+    <footer>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
