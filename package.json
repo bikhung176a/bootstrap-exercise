@@ -13,6 +13,7 @@
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
+  "scss": "node-sass -o css css/",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "bootstrap-social": "^5.1.1",
